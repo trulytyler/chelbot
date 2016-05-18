@@ -1,11 +1,11 @@
-module.exports = function(steve) {
+module.exports = function(robot) {
     robot.respond(/is it a (weekend|holiday)\s?\?/i, function(msg){
         var today = new Date();
 
         msg.reply(today.getDay() === 0 || today.getDay() === 6 ? "YES" : "NO");
     });
 
-    steve.hear(/i did it/i, function(msg){
+    robot.hear(/i did it/i, function(msg){
         msg.send("Congratulations! Good job!");
     });
 
