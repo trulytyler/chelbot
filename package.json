@@ -4,7 +4,7 @@
   "private": true,
 
   "author": "trulytyler"
-git config --global user.email “tylerharrisdesign@gmail.com <YOUR@EMAIL.com>",
+git config --global user.email “tylerharrisdesign@gmail.com",
 
   "description": "the chel-est bot around likeomg",
 
